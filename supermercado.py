@@ -11,5 +11,9 @@ while precio > 0:
 
 # Mostramos resultados finales
 print("El total es: $" , suma)
+if suma > 1000:
+    descuento = suma * 10 / 100
+    total = suma - descuento
+    print (f"Corresponde un descuento de {descuento}, debe pagar ${total}")
 
 
