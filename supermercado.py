@@ -15,5 +15,6 @@ if suma > 1000:
     descuento = suma * 10 / 100
     total = suma - descuento
     print (f"Corresponde un descuento de {descuento}, debe pagar ${total}")
-
+else:
+    print("No corresponde descuento porque el total no supera $1000")
 
